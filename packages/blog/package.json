@@ -5,5 +5,13 @@
   "scripts": {
     "build": "eleventy --input=./src --output=../../dist/packages/blog",
     "serve": "eleventy --serve --input=./src --output=../../dist/packages/blog"
+  },
+  "dependency": {
+    "ascii": "*"
+  },
+  "nx": {
+    "implicitDependencies": [
+      "ascii"
+    ]
   }
 }

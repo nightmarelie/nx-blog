@@ -2,6 +2,7 @@
   "root": "packages/cli",
   "sourceRoot": "packages/cli/src",
   "projectType": "application",
+  "implicitDependencies": ["ascii"],
   "targets": {
     "build": {
       "executor": "nx:run-commands",
